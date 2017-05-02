@@ -108,7 +108,7 @@ the Bolt 3.1+ version**
     `{% form_theme form '@bolt/frontend/boltforms_theme_translated.twig' %}` at the top
     of a form template. This requires the Labels extension.
 
- 8. (Optional) Translate your menu labels by chaning `{{ menu(template = 'partials/_sub_menu.twig') }}`
+ 8. (Optional) Translate your menu labels by changing `{{ menu(template = 'partials/_sub_menu.twig') }}`
     to `{{ menu(template = '@bolt/frontend/_sub_menu_translated.twig') }}` in your template.
     You can then have locale specific menu labels by adding them like this:
 
